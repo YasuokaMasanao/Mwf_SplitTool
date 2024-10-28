@@ -1,0 +1,15 @@
+﻿<Window x:Name="wind_main" x:Class="SplitTool.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SplitTool"
+        mc:Ignorable="d"
+        Title="SplitTool" Height="140" Width="700"
+        ResizeMode="NoResize">
+    <Grid Background="#FFF0F0F0">
+        <TextBox x:Name="txb_filename" Height="25" Margin="5,20,75,0" TextWrapping="NoWrap" VerticalAlignment="Top" TextAlignment="Right" HorizontalAlignment="Right" Width="600" VerticalContentAlignment="Center" FlowDirection="RightToLeft" IsReadOnly="True"/>
+        <Button x:Name="btn_cite" Content="参照" HorizontalAlignment="Right" Height="25" Margin="0,20,5,0" VerticalAlignment="Top" Width="65" Click="btn_cite_Click"/>
+        <Button x:Name="btn_split" Content="Split" Height="40" Margin="300,55,0,0" VerticalAlignment="Top" Width="100" FontSize="16" FontWeight="Bold" HorizontalAlignment="Left" Click="btn_split_Click"/>
+    </Grid>
+</Window>
